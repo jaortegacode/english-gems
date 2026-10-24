@@ -1,0 +1,1 @@
+window.EG.start().catch(function (e) { document.getElementById('app').innerHTML = '<div style="padding:24px"><h2>Something went wrong</h2><p>' + String(e && e.message || e) + '</p></div>'; console.error(e); });
